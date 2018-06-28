@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Joey's Space</title>
-    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/custom.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,800" rel="stylesheet">
     <link rel="stylesheet" href="src/css/hover.css">
-    <script src="src/js/jquery-3.2.1.min.js"></script>
-    <script src="src/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src="src/js/myfunction.js"></script>
 
 
@@ -38,7 +39,7 @@
 
             <div class="buttons fadeIn3">
                 <a href="#me"><button class="btn1">About Us</button></a>
-                <button class="btn2">My Projects</button>
+                <button class="btn2">Examples</button>
             </div>
         </div>
 
@@ -163,13 +164,67 @@
         </div>
 
 
+
         <div class="chunkJob" id="job">
-            <h2 >Want to work together?</h2>
-            <h5>I'm available to take both of contract and full-time role and would love to hear about yours.
-                <br/><br/>Please take a few minutes to tell me about it. Let it happen!
+            <h2 >Have any inquires?</h2>
+            <h5>Have a question for us about our ratings, test process or vehicle safety in general?
             </h5>
 
-            <button class="btn3" >Get Started</button>
+            <button class="btn3" data-toggle="modal" data-target="#myModal">Get Started</button>
+
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Ask an Expert.</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Your Email address:</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlSelect1">You want to ask about:</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>Ratings</option>
+                                        <option>Test Process</option>
+                                        <option>Vehicle Safety</option>
+                                        <option>Complain</option>
+                                        <option>Others</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Your Question:</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <br>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlFile1">Any supportive or related documents could be uploaded:</label>
+                                        <label>If no, leave it blank</label>
+                                        <br>
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    </div>
+                            </form>
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Send</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
 
         </div>
 
@@ -177,7 +232,8 @@
 
 
         <div class="footChunk">
-            <p>Handmade by me &copy; 2017</p>
+            <p>Handmade by Joey &copy; 2018. The whole content on this website is fictitious.</p>
+
 
             <div class="socialLinks">
                 <a href="https://www.facebook.com/profile.php?id=100008450971611">
