@@ -304,7 +304,7 @@
     margin-top: 30px;
 }
 
-.chunkTree{
+.chunkRecalls{
     text-align: center;
     font-size: 3.2rem;
     font-family: 'Montserrat', sans-serif;
@@ -313,20 +313,23 @@
     padding-left: 20vh;
     padding-right: 20vh;
 }
-.chunkTreeDetails{
+.chunkRecallsDetails{
     padding-top: 10vh;
     text-align: left;
 }
 
-.chunkTree h2{
+.chunkRecalls h2{
     padding-top: 130px;
 }
 
-.chunkTree h5{
+.chunkRecalls h5{
     margin-top: 30px;
     padding-bottom: 80px;
 }
 
+.chunkRecalls p{
+    padding-top: 5vh;
+}
 .chunkProjects{
     text-align: center;
     font-size: 3.2rem;
@@ -383,17 +386,17 @@ p{
     margin-top: 10vh;
 }
 
-.chunkJob {
+.chunkContact {
     background-color: #eee;
     text-align: center;
     padding-bottom: 15vh;
 }
 
-.chunkJob h2{
+.chunkContact h2{
     padding-top: 15vh;
 }
 
-.chunkJob h5{
+.chunkContact h5{
     margin-top: 30px;
     padding-bottom: 1vh;
 }

@@ -30,7 +30,7 @@ $(document).ready(function (){
 
     $("#nav3").click(function (){
         $('html, body').animate({
-            scrollTop: $("#tree").offset().top
+            scrollTop: $("#recalls").offset().top
         }, 500);
     });
 
@@ -42,7 +42,7 @@ $(document).ready(function (){
 
     $("#nav5").click(function (){
         $('html, body').animate({
-            scrollTop: $("#job").offset().top
+            scrollTop: $("#contacts").offset().top
         }, 500);
     });
 });
