@@ -5,3 +5,8 @@
 2. JQuery for navigating back to the top with animations.
 3. Framework Bootstrap 4 used in here.
 4. Not really comments here, but the codes are neat and clean. Every div with a proper name.
+
+### For the future work:
+1. Back-end development, a Nosql(Mongo Db) database for recording enquires and vehicles safety information.
+2. A live search function done by Ajax and Php.
+3. A back-end management system supporting online modifing database.
